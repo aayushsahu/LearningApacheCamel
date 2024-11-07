@@ -2,5 +2,8 @@ spring:
   application:
     name : CamelService1
 
+  activemq:
+    broker-url: tcp://localhost:61616
+
 server:
   port: 8080
